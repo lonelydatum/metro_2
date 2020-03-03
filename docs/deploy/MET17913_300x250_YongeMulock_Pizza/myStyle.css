@@ -1,0 +1,198 @@
+body {
+	margin: 0px;
+}
+
+div { 
+	position:absolute; 
+	margin:0px; 
+	padding:0px;
+}
+
+#viewport { 
+	width:300px; 
+	height:250px; 
+	overflow:hidden;
+    background-color: #FFFFFF;
+    position: relative;
+    margin: 0 auto;
+}
+
+#border { 
+	position: absolute;
+	pointer-events: none;
+    left: 0px;
+    top: 0px;
+	width:300px; 
+	height:250px; 
+	background: url(images/border_300x250.png) no-repeat;
+}
+
+#clickable { 
+	position: absolute;
+    left: 0px;
+    top: 0px;
+	width:300px; 
+	height:250px; 
+	background-color: white;
+	opacity: 0;
+}
+
+#background { 
+	position: absolute;
+    left: 0px;
+    top: 0px;
+	width:300px; 
+	height:250px; 
+	background: url(images/background.jpg) no-repeat;
+}
+
+#background2 { 
+	position: absolute;
+    left: 0px;
+    top: 0px;
+	width:405px; 
+	height:295px; 
+	/*background: url(images/background.jpg) no-repeat;*/
+	/*background-size: contain;*/
+	background: rgba(0,0,0,0.65);
+}
+
+#cta { 
+	position: absolute;
+	overflow: hidden;
+    left: 18px;
+    top: 206px;
+	width:97px; 
+	height:31px; 
+	background: url(images/cta.png) no-repeat;
+}
+
+#ctaOver { 
+	position: absolute;
+    left: 0px;
+    top: 0px;
+	width:90px; 
+	height:26px;  
+	/*background: #FFF;*/
+}
+
+#ctaTxt { 
+	position: absolute;
+    left: 13px;
+    top: 10px;
+	width:116px; 
+	height:19px; 
+	/*background: url(images/ctaTxt.png) no-repeat;*/
+}
+
+#sheen { 
+	position: absolute;
+    left: -80px;
+    top: -5px;
+	width:79px; 
+	height:58px; 
+	background: url(images/sheen.png) no-repeat;
+}
+
+#dipIt {
+	position: absolute;
+	font-family: 'Nunito', sans-serif;
+	color: #fff;
+	font-size: 29px;
+	left: 91px;
+	top: 102px;
+	margin: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform:translate3d(0,0,0);
+}
+
+
+#dipItGood {
+	position: absolute;
+	font-family: 'Nunito', sans-serif;
+	color: #fff;
+	font-size: 29px;
+	left: 96px;
+	top: 102px;
+	margin: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform:translate3d(0,0,0);
+}
+
+#gone {
+	position: absolute;
+	font-family: 'Nunito', sans-serif;
+	color: #fff;
+	font-size: 29px;
+	left: 94px;
+	top: 102px;
+	margin: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform:translate3d(0,0,0);
+}
+
+
+#boxArt {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/boxArt.png) no-repeat;
+}
+
+#offer {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/offer.png) no-repeat;
+}
+
+#text1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/text1.png) no-repeat;
+}
+
+#text2 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/text2.png) no-repeat;
+}
+
+#text3 {
+	position: absolute;
+	top: 196px;
+	left: 162px;
+	width: 116px;
+	height: 40px;
+	background: url(images/text3.png) no-repeat;
+}
+
+#text4 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/text4.png) no-repeat;
+	background-size: 300px 250px;
+}
+
+#redBar {
+  background-color: rgb(235, 28, 35);
+  position: absolute;
+  left: 89px;
+  top: 55px;
+  width: 198px;
+  height: 2px;
+}
+
